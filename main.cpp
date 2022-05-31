@@ -5,21 +5,21 @@ void main()
 {
 	IntegerBinaryTree tree;
 	vector<int> v = {};
-	tree.addElem(10, v);
+	tree.addElem(17, v);
 	v = { 1 };
-	tree.addElem(21, v);
-	v = { 0 };
+	tree.addElem(28, v);
+	v = {0};
 	tree.addElem(7, v);
 	v = { 0, 0 };
-	tree.addElem(4, v);
+	tree.addElem(6, v);
 	v = { 0, 1 };
-	tree.addElem(9, v);
+	tree.addElem(16, v);
 	v = { 0, 0, 0 };
 	tree.addElem(2, v);
 	v = { 1, 0 };
-	tree.addElem(16, v);
+	tree.addElem(22, v);
 	v = { 1, 0, 1 };
-	tree.addElem(19, v);
+	tree.addElem(25, v);
 	cout << tree << endl;
 	cout << endl;
 
@@ -33,9 +33,9 @@ void main()
 
 	
 	v = { 0, 0, 0 };
-	tree.addElem(-1, v);
+	tree.addElem(-5, v);
 	v = {};
-	tree.addElem(45, v);
+	tree.addElem(31, v);
 	cout << tree << endl;
 	cout << endl;
 
